@@ -5,10 +5,6 @@ return {
     opts = {
       mappings = {
         n = {
-          -- 元のキーマッピングを無効化
-          ["[b"] = false,
-          ["]b"] = false,
-
           -- 新しいキーマッピングを設定
           ["<S-h>"] = { "<cmd>bprev<CR>", desc = "Go to previous buffer" },
           ["<S-l>"] = { "<cmd>bnext<CR>", desc = "Go to next buffer" },
