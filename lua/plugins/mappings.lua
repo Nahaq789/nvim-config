@@ -18,7 +18,7 @@ return {
           ["<C-j>"] = { "<cmd>ToggleTerm<CR>", desc = "Toggle terminal" },
         },
         t = {
-          ["jk"] = { "<C-\\><C-n>", desc = "Switch to normal mode" },
+          ["jj"] = { "<C-\\><C-n>", desc = "Switch to normal mode" },
         },
       },
     },
