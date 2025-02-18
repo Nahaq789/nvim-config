@@ -17,6 +17,7 @@ end
 
 require "lazy_setup"
 require "polish"
+require "ui"
 
 -- require("lspconfig").rust_analyzer.setup {
 --   settings = {
