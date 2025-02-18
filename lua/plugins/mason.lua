@@ -1,9 +1,12 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Mason plugins
 
 ---@type LazySpec
 return {
+  {
+    "williamboman/mason.nvim",
+  },
   -- use mason-lspconfig to configure LSP installations
   {
     "williamboman/mason-lspconfig.nvim",
@@ -12,7 +15,6 @@ return {
       ensure_installed = {
         "lua_ls",
         "gopls",
-        "rust-analyzer"
         -- add more arguments for adding more language servers
       },
     },
