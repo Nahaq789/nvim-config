@@ -19,18 +19,6 @@ require "lazy_setup"
 require "polish"
 require "ui"
 
--- require("lspconfig").rust_analyzer.setup {
---   settings = {
---     ["rust-analyzer"] = {
---       cargo = {
---         allFeatures = true,
---       },
---       checkOnSave = {
---         command = "clippy",
---       },
---     },
---   },
--- }
-
+require "telescope"
 require("mason").setup()
 require("mason-lspconfig").setup()
