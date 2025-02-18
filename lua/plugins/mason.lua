@@ -32,6 +32,8 @@ return {
     opts = {
       ensure_installed = {
         "python",
+        "rust",
+        "go",
         -- add more arguments for adding more debuggers
       },
     },
