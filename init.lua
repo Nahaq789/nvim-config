@@ -32,3 +32,4 @@ require "polish"
 -- }
 
 require("mason").setup()
+require("mason-lspconfig").setup()

@@ -9,7 +9,9 @@ return {
   },
   -- use mason-lspconfig to configure LSP installations
   {
+    "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
       ensure_installed = {
