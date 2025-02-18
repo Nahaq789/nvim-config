@@ -11,6 +11,8 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
+        "gopls",
+        "rust-analyzer"
         -- add more arguments for adding more language servers
       },
     },
@@ -32,8 +34,6 @@ return {
     opts = {
       ensure_installed = {
         "python",
-        "rust",
-        "go",
         -- add more arguments for adding more debuggers
       },
     },
